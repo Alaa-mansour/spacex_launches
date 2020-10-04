@@ -1,0 +1,4 @@
+node_modules
+
+# because the react application are going to be built into our public folder of our server when we get ready for deployment
+/client

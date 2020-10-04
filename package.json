@@ -1,0 +1,21 @@
+{
+  "name": "spacex_launch_stats",
+  "version": "1.0.0",
+  "description": "App that lists all of the Spacex launch missions",
+  "main": "server.js",
+  "license": "MIT",
+  "author": "Alaa Mansour",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "0.20.0",
+    "express": "4.17.1",
+    "express-graphql": "0.11.0",
+    "graphql": "15.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.4"
+  }
+}
